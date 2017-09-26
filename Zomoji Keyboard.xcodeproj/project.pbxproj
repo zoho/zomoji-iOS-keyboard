@@ -22,7 +22,6 @@
 		67B50E4C1F6BCF9D002AA453 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B50E4B1F6BCF9D002AA453 /* Extensions.swift */; };
 		67CC7BF81F783C4B004348F1 /* UsageMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67CC7BF71F783C4B004348F1 /* UsageMonitor.swift */; };
 		67F371741F753200008CC0CE /* Popup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F371731F753200008CC0CE /* Popup.swift */; };
-		E10B8FE24A63FEEC1960F9C0 /* Pods_ZKeyboard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 714D160FFB52D9F4EE547738 /* Pods_ZKeyboard.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,7 +52,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E10B8FE24A63FEEC1960F9C0 /* Pods_ZKeyboard.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
