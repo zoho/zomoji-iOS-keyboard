@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		670BBD531F6ECD620079C537 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670BBD521F6ECD620079C537 /* Constants.swift */; };
+		672A5A221F6FA38600C780D4 /* CollectionViewCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672A5A211F6FA38600C780D4 /* CollectionViewCells.swift */; };
+		672A5A241F6FC4D900C780D4 /* KeyboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672A5A231F6FC4D900C780D4 /* KeyboardView.swift */; };
+		672A5A261F6FCF9900C780D4 /* SupplementaryViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672A5A251F6FCF9900C780D4 /* SupplementaryViews.swift */; };
+		6733DC861F6BD8E100C9B951 /* KeyboardCV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6733DC851F6BD8E100C9B951 /* KeyboardCV.swift */; };
+		6733DC881F6BDFE000C9B951 /* Enumerations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6733DC871F6BDFE000C9B951 /* Enumerations.swift */; };
+		674E39C61F780C8C006FE755 /* KeyboardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 674E39C51F780C8C006FE755 /* KeyboardController.swift */; };
+		67B50E361F6BCF04002AA453 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B50E351F6BCF04002AA453 /* AppDelegate.swift */; };
+		67B50E381F6BCF04002AA453 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B50E371F6BCF04002AA453 /* TestViewController.swift */; };
+		67B50E3B1F6BCF04002AA453 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67B50E391F6BCF04002AA453 /* Main.storyboard */; };
+		67B50E3D1F6BCF04002AA453 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67B50E3C1F6BCF04002AA453 /* Assets.xcassets */; };
+		67B50E401F6BCF04002AA453 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67B50E3E1F6BCF04002AA453 /* LaunchScreen.storyboard */; };
+		67B50E4C1F6BCF9D002AA453 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B50E4B1F6BCF9D002AA453 /* Extensions.swift */; };
+		67CC7BF81F783C4B004348F1 /* UsageMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67CC7BF71F783C4B004348F1 /* UsageMonitor.swift */; };
+		67F371741F753200008CC0CE /* Popup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F371731F753200008CC0CE /* Popup.swift */; };
+		E10B8FE24A63FEEC1960F9C0 /* Pods_ZKeyboard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 714D160FFB52D9F4EE547738 /* Pods_ZKeyboard.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		670BBD521F6ECD620079C537 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		672A5A211F6FA38600C780D4 /* CollectionViewCells.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCells.swift; sourceTree = "<group>"; };
+		672A5A231F6FC4D900C780D4 /* KeyboardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardView.swift; sourceTree = "<group>"; };
+		672A5A251F6FCF9900C780D4 /* SupplementaryViews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SupplementaryViews.swift; sourceTree = "<group>"; };
+		6733DC851F6BD8E100C9B951 /* KeyboardCV.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardCV.swift; sourceTree = "<group>"; };
+		6733DC871F6BDFE000C9B951 /* Enumerations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enumerations.swift; sourceTree = "<group>"; };
+		674E39C51F780C8C006FE755 /* KeyboardController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardController.swift; sourceTree = "<group>"; };
+		67B50E321F6BCF04002AA453 /* Zomoji Keyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Zomoji Keyboard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		67B50E351F6BCF04002AA453 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		67B50E371F6BCF04002AA453 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		67B50E3A1F6BCF04002AA453 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		67B50E3C1F6BCF04002AA453 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		67B50E3F1F6BCF04002AA453 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		67B50E411F6BCF04002AA453 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67B50E4B1F6BCF9D002AA453 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		67CC7BF71F783C4B004348F1 /* UsageMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsageMonitor.swift; sourceTree = "<group>"; };
+		67F371731F753200008CC0CE /* Popup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Popup.swift; sourceTree = "<group>"; };
+		714D160FFB52D9F4EE547738 /* Pods_ZKeyboard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZKeyboard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8161B6838B2C941808A43A0 /* Pods-ZKeyboard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZKeyboard.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZKeyboard/Pods-ZKeyboard.release.xcconfig"; sourceTree = "<group>"; };
+		EC3C8F65A404E26B95DD7194 /* Pods-ZKeyboard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZKeyboard.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZKeyboard/Pods-ZKeyboard.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		67B50E2F1F6BCF04002AA453 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E10B8FE24A63FEEC1960F9C0 /* Pods_ZKeyboard.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		67B50E291F6BCF04002AA453 = {
+			isa = PBXGroup;
+			children = (
+				67B50E4A1F6BCF81002AA453 /* Resources */,
+				67B50E491F6BCF7B002AA453 /* Utils */,
+				67B50E481F6BCF55002AA453 /* Example */,
+				67B50E471F6BCF46002AA453 /* Keyboard */,
+				67B50E331F6BCF04002AA453 /* Products */,
+				97F087F9D98A0DA29F5100AF /* Pods */,
+				EE5D69EC83CFC9032A08E98F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		67B50E331F6BCF04002AA453 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				67B50E321F6BCF04002AA453 /* Zomoji Keyboard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		67B50E471F6BCF46002AA453 /* Keyboard */ = {
+			isa = PBXGroup;
+			children = (
+				672A5A211F6FA38600C780D4 /* CollectionViewCells.swift */,
+				6733DC851F6BD8E100C9B951 /* KeyboardCV.swift */,
+				672A5A231F6FC4D900C780D4 /* KeyboardView.swift */,
+				672A5A251F6FCF9900C780D4 /* SupplementaryViews.swift */,
+				67F371731F753200008CC0CE /* Popup.swift */,
+				674E39C51F780C8C006FE755 /* KeyboardController.swift */,
+				67CC7BF71F783C4B004348F1 /* UsageMonitor.swift */,
+			);
+			path = Keyboard;
+			sourceTree = "<group>";
+		};
+		67B50E481F6BCF55002AA453 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				67B50E371F6BCF04002AA453 /* TestViewController.swift */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		67B50E491F6BCF7B002AA453 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				67B50E4B1F6BCF9D002AA453 /* Extensions.swift */,
+				6733DC871F6BDFE000C9B951 /* Enumerations.swift */,
+				670BBD521F6ECD620079C537 /* Constants.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		67B50E4A1F6BCF81002AA453 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				67B50E351F6BCF04002AA453 /* AppDelegate.swift */,
+				67B50E391F6BCF04002AA453 /* Main.storyboard */,
+				67B50E3C1F6BCF04002AA453 /* Assets.xcassets */,
+				67B50E3E1F6BCF04002AA453 /* LaunchScreen.storyboard */,
+				67B50E411F6BCF04002AA453 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		97F087F9D98A0DA29F5100AF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EC3C8F65A404E26B95DD7194 /* Pods-ZKeyboard.debug.xcconfig */,
+				D8161B6838B2C941808A43A0 /* Pods-ZKeyboard.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EE5D69EC83CFC9032A08E98F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				714D160FFB52D9F4EE547738 /* Pods_ZKeyboard.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		67B50E311F6BCF04002AA453 /* Zomoji Keyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67B50E441F6BCF04002AA453 /* Build configuration list for PBXNativeTarget "Zomoji Keyboard" */;
+			buildPhases = (
+				DAFBBD6ADB7A127710E8B9B0 /* [CP] Check Pods Manifest.lock */,
+				67B50E2E1F6BCF04002AA453 /* Sources */,
+				67B50E2F1F6BCF04002AA453 /* Frameworks */,
+				67B50E301F6BCF04002AA453 /* Resources */,
+				A2B2589FB91B9C0144B5A671 /* [CP] Embed Pods Frameworks */,
+				C4A8820D2C27B49504035D8D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Zomoji Keyboard";
+			productName = ZKeyboard;
+			productReference = 67B50E321F6BCF04002AA453 /* Zomoji Keyboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		67B50E2A1F6BCF04002AA453 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Zoho Corporation";
+				TargetAttributes = {
+					67B50E311F6BCF04002AA453 = {
+						CreatedOnToolsVersion = 8.3.3;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 67B50E2D1F6BCF04002AA453 /* Build configuration list for PBXProject "Zomoji Keyboard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 67B50E291F6BCF04002AA453;
+			productRefGroup = 67B50E331F6BCF04002AA453 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				67B50E311F6BCF04002AA453 /* Zomoji Keyboard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		67B50E301F6BCF04002AA453 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67B50E401F6BCF04002AA453 /* LaunchScreen.storyboard in Resources */,
+				67B50E3D1F6BCF04002AA453 /* Assets.xcassets in Resources */,
+				67B50E3B1F6BCF04002AA453 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A2B2589FB91B9C0144B5A671 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZKeyboard/Pods-ZKeyboard-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4A8820D2C27B49504035D8D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZKeyboard/Pods-ZKeyboard-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DAFBBD6ADB7A127710E8B9B0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		67B50E2E1F6BCF04002AA453 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				672A5A221F6FA38600C780D4 /* CollectionViewCells.swift in Sources */,
+				672A5A261F6FCF9900C780D4 /* SupplementaryViews.swift in Sources */,
+				67CC7BF81F783C4B004348F1 /* UsageMonitor.swift in Sources */,
+				6733DC881F6BDFE000C9B951 /* Enumerations.swift in Sources */,
+				672A5A241F6FC4D900C780D4 /* KeyboardView.swift in Sources */,
+				67B50E381F6BCF04002AA453 /* TestViewController.swift in Sources */,
+				67B50E4C1F6BCF9D002AA453 /* Extensions.swift in Sources */,
+				6733DC861F6BD8E100C9B951 /* KeyboardCV.swift in Sources */,
+				67B50E361F6BCF04002AA453 /* AppDelegate.swift in Sources */,
+				674E39C61F780C8C006FE755 /* KeyboardController.swift in Sources */,
+				67F371741F753200008CC0CE /* Popup.swift in Sources */,
+				670BBD531F6ECD620079C537 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		67B50E391F6BCF04002AA453 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67B50E3A1F6BCF04002AA453 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		67B50E3E1F6BCF04002AA453 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67B50E3F1F6BCF04002AA453 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		67B50E421F6BCF04002AA453 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		67B50E431F6BCF04002AA453 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		67B50E451F6BCF04002AA453 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC3C8F65A404E26B95DD7194 /* Pods-ZKeyboard.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zomoji.keyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		67B50E461F6BCF04002AA453 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8161B6838B2C941808A43A0 /* Pods-ZKeyboard.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zomoji.keyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		67B50E2D1F6BCF04002AA453 /* Build configuration list for PBXProject "Zomoji Keyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67B50E421F6BCF04002AA453 /* Debug */,
+				67B50E431F6BCF04002AA453 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67B50E441F6BCF04002AA453 /* Build configuration list for PBXNativeTarget "Zomoji Keyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67B50E451F6BCF04002AA453 /* Debug */,
+				67B50E461F6BCF04002AA453 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 67B50E2A1F6BCF04002AA453 /* Project object */;
+}
