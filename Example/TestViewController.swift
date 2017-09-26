@@ -118,14 +118,14 @@ class TestViewController: UIViewController, ZKeyboardDelegate
     
     func zomojiWasSelected(withParams parameters: Dictionary<String,Any>)
     {
-        if let isAnimatable = parameters[zDictIsAnimoji] as? Bool, isAnimatable
+        if let isAnimatable = parameters[KeyboardController.zDictIsAnimoji] as? Bool, isAnimatable
         {
-            if let imageData = parameters[zDictImageData] as? Data
+            if let imageData = parameters[KeyboardController.zDictImageData] as? Data
             {
                 if let image = UIImage(data: imageData)
                 {
-                    let startingFrame = parameters[zDictStartingFrame] as? Int ?? 0
-                    let frames = parameters[zDictNumberOfFrames] as? Int ?? 0
+                    let startingFrame = parameters[KeyboardController.zDictStartingFrame] as? Int ?? 0
+                    let frames = parameters[KeyboardController.zDictNumberOfFrames] as? Int ?? 0
                     
                     self.setAnimoji(withImage: image, intoView: self.animatorView, withFrames: frames, andStartingFrame: startingFrame)
                 }
@@ -133,7 +133,7 @@ class TestViewController: UIViewController, ZKeyboardDelegate
         }
         else
         {
-            if let imageData = parameters[zDictImageData] as? Data
+            if let imageData = parameters[KeyboardController.zDictImageData] as? Data
             {
                 if let image = UIImage(data: imageData)
                 {

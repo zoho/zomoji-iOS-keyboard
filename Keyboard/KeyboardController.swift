@@ -8,13 +8,6 @@
 
 import UIKit
 
-public let zDictIsAnimoji = "isAnimoji"
-public let zDictImageData = "imageData"
-public let zDictStringEquivalent = "stringEquivalent"
-public let zDictName = "name"
-public let zDictNumberOfFrames = "numberOfFrames"
-public let zDictStartingFrame = "startingFrame"
-
 public protocol ZKeyboardDelegate
 {
     func zomojiWasSelected(withParams parameters: Dictionary<String,Any>)
@@ -24,11 +17,18 @@ public protocol ZKeyboardDelegate
 @objcMembers
 public class KeyboardController: NSObject
 {
+    public static let zDictIsAnimoji = "isAnimoji"
+    public static let zDictImageData = "imageData"
+    public static let zDictStringEquivalent = "stringEquivalent"
+    public static let zDictName = "name"
+    public static let zDictNumberOfFrames = "numberOfFrames"
+    public static let zDictStartingFrame = "startingFrame"
+    
     public var delegate: ZKeyboardDelegate?
     
     private weak var keyboardView: KeyboardView?
     
-    public func keyboard(withDelegate delegate: ZKeyboardDelegate? = nil) -> UIView
+    public func keyboard(withDelegate delegate: ZKeyboardDelegate?) -> UIView
     {
         if keyboardView == nil
         {

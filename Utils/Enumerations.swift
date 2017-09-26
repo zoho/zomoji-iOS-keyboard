@@ -227,7 +227,7 @@ enum Emoji: String
     
     func image() -> UIImage?
     {
-        let image = UIImage(named: "Emoji/" + self.rawValue)
+        let image = UIImage(withName: "Emoji/" + self.rawValue)
         return image
     }
 }
@@ -331,7 +331,7 @@ enum Animoji: String
     
     func image() -> UIImage?
     {
-        let image = UIImage(named: "Animoji/" + self.rawValue)
+        let image = UIImage(withName: "Animoji/" + self.rawValue)
         return image
     }
     

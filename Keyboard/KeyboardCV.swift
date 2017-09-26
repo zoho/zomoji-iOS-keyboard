@@ -118,7 +118,7 @@ extension KeyboardCV: UICollectionViewDelegate
         {
             var resultDict: Dictionary<String,Any> = Dictionary()
             
-            resultDict[zDictIsAnimoji] = self.isAnimatable
+            resultDict[KeyboardController.zDictIsAnimoji] = self.isAnimatable
             
             if isAnimatable
             {
@@ -129,14 +129,14 @@ extension KeyboardCV: UICollectionViewDelegate
                     if let image = animojiCell.animatorView.image
                     {
                         let data = UIImagePNGRepresentation(image)
-                        resultDict[zDictImageData] = data
+                        resultDict[KeyboardController.zDictImageData] = data
                     }
                 }
                 
-                resultDict[zDictName] = animojiType.rawValue
-                resultDict[zDictNumberOfFrames] = animojiType.framesForImage()
-                resultDict[zDictStartingFrame] = animojiType.startingFrameForAnimation()
-                resultDict[zDictStringEquivalent] = ":\(animojiType.rawValue)!:"
+                resultDict[KeyboardController.zDictName] = animojiType.rawValue
+                resultDict[KeyboardController.zDictNumberOfFrames] = animojiType.framesForImage()
+                resultDict[KeyboardController.zDictStartingFrame] = animojiType.startingFrameForAnimation()
+                resultDict[KeyboardController.zDictStringEquivalent] = ":\(animojiType.rawValue)!:"
                 
                 UsageMonitor.selected(animoji: animojiType)
             }
@@ -149,13 +149,13 @@ extension KeyboardCV: UICollectionViewDelegate
                     if let image = emojiCell.imageView.image
                     {
                         let data = UIImagePNGRepresentation(image)
-                        resultDict[zDictImageData] = data
+                        resultDict[KeyboardController.zDictImageData] = data
                     }
                 }
                 
-                resultDict[zDictName] = emojiType.rawValue
-                resultDict[zDictNumberOfFrames] = 1
-                resultDict[zDictStringEquivalent] = ":\(emojiType.rawValue):"
+                resultDict[KeyboardController.zDictName] = emojiType.rawValue
+                resultDict[KeyboardController.zDictNumberOfFrames] = 1
+                resultDict[KeyboardController.zDictStringEquivalent] = ":\(emojiType.rawValue):"
                 
                 UsageMonitor.selected(emoji: emojiType)
             }

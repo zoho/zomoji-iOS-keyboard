@@ -16,6 +16,16 @@ internal extension UserDefaults
     }
 }
 
+internal extension UIImage
+{
+    convenience init?(withName name: String)
+    {
+        let bundle = Bundle(for: KeyboardController.classForCoder())
+        
+        self.init(named: name, in: bundle, compatibleWith: nil)
+    }
+}
+
 internal extension UIView
 {
     func setShadow()

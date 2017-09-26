@@ -91,7 +91,7 @@ internal class CollectionViewTab: UIView
             button.tintColor = UIColor.sectionButton
             button.tag = i
             button.contentMode = UIViewContentMode.center
-            button.setImage(UIImage(named: emojiSectionImageNames[i]), for: UIControlState.normal)
+            button.setImage(UIImage(withName: emojiSectionImageNames[i]), for: UIControlState.normal)
             button.addTarget(self, action: #selector(didSelect(button:)), for: UIControlEvents.touchUpInside)
             button.imageEdgeInsets = UIEdgeInsetsMake(10, 10, 10, 10)
             scrollView.addSubview(button)
@@ -110,7 +110,7 @@ internal class CollectionViewTab: UIView
         deleteButton.contentEdgeInsets = UIEdgeInsetsMake(5, 0, 5, 0)
         deleteButton.translatesAutoresizingMaskIntoConstraints = false
         deleteButton.tintColor = UIColor.backSpace
-        deleteButton.setImage(UIImage(named: "Tab/Backspace"), for: UIControlState.normal)
+        deleteButton.setImage(UIImage(withName: "Tab/Backspace"), for: UIControlState.normal)
         deleteButton.addTarget(self, action: #selector(deleteCancel), for: UIControlEvents.touchUpInside)
         deleteButton.addTarget(self, action: #selector(deleteCancel), for: UIControlEvents.touchUpOutside)
         deleteButton.addTarget(self, action: #selector(deleteTouchDown), for: UIControlEvents.touchDown)
@@ -177,7 +177,7 @@ internal class CollectionViewTab: UIView
             for i in 0..<animojiSectionImageNames.count
             {
                 let button = buttons[i]
-                button.setImage(UIImage(named: animojiSectionImageNames[i]), for: UIControlState.normal)
+                button.setImage(UIImage(withName: animojiSectionImageNames[i]), for: UIControlState.normal)
             }
             
             for i in animojiSectionImageNames.count..<buttons.count
@@ -194,7 +194,7 @@ internal class CollectionViewTab: UIView
             for i in 0..<buttons.count
             {
                 let button = buttons[i]
-                button.setImage(UIImage(named: emojiSectionImageNames[i]), for: UIControlState.normal)
+                button.setImage(UIImage(withName: emojiSectionImageNames[i]), for: UIControlState.normal)
                 button.isEnabled = true
                 button.isHidden = false
             }
