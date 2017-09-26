@@ -8,6 +8,7 @@
 
 import UIKit
 
+@objc
 public protocol ZKeyboardDelegate
 {
     func zomojiWasSelected(withParams parameters: Dictionary<String,Any>)
