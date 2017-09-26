@@ -17,7 +17,7 @@
 		67B50E361F6BCF04002AA453 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B50E351F6BCF04002AA453 /* AppDelegate.swift */; };
 		67B50E381F6BCF04002AA453 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B50E371F6BCF04002AA453 /* TestViewController.swift */; };
 		67B50E3B1F6BCF04002AA453 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67B50E391F6BCF04002AA453 /* Main.storyboard */; };
-		67B50E3D1F6BCF04002AA453 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67B50E3C1F6BCF04002AA453 /* Assets.xcassets */; };
+		67B50E3D1F6BCF04002AA453 /* ZomojiAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67B50E3C1F6BCF04002AA453 /* ZomojiAssets.xcassets */; };
 		67B50E401F6BCF04002AA453 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67B50E3E1F6BCF04002AA453 /* LaunchScreen.storyboard */; };
 		67B50E4C1F6BCF9D002AA453 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B50E4B1F6BCF9D002AA453 /* Extensions.swift */; };
 		67CC7BF81F783C4B004348F1 /* UsageMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67CC7BF71F783C4B004348F1 /* UsageMonitor.swift */; };
@@ -36,7 +36,7 @@
 		67B50E351F6BCF04002AA453 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		67B50E371F6BCF04002AA453 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 		67B50E3A1F6BCF04002AA453 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		67B50E3C1F6BCF04002AA453 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		67B50E3C1F6BCF04002AA453 /* ZomojiAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ZomojiAssets.xcassets; sourceTree = "<group>"; };
 		67B50E3F1F6BCF04002AA453 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		67B50E411F6BCF04002AA453 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		67B50E4B1F6BCF9D002AA453 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
@@ -116,7 +116,7 @@
 			children = (
 				67B50E351F6BCF04002AA453 /* AppDelegate.swift */,
 				67B50E391F6BCF04002AA453 /* Main.storyboard */,
-				67B50E3C1F6BCF04002AA453 /* Assets.xcassets */,
+				67B50E3C1F6BCF04002AA453 /* ZomojiAssets.xcassets */,
 				67B50E3E1F6BCF04002AA453 /* LaunchScreen.storyboard */,
 				67B50E411F6BCF04002AA453 /* Info.plist */,
 			);
@@ -204,7 +204,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				67B50E401F6BCF04002AA453 /* LaunchScreen.storyboard in Resources */,
-				67B50E3D1F6BCF04002AA453 /* Assets.xcassets in Resources */,
+				67B50E3D1F6BCF04002AA453 /* ZomojiAssets.xcassets in Resources */,
 				67B50E3B1F6BCF04002AA453 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
