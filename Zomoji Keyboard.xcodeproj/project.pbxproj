@@ -224,7 +224,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZKeyboard/Pods-ZKeyboard-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Zomoji Keyboard/Pods-Zomoji Keyboard-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C4A8820D2C27B49504035D8D /* [CP] Copy Pods Resources */ = {
@@ -239,7 +239,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZKeyboard/Pods-ZKeyboard-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Zomoji Keyboard/Pods-Zomoji Keyboard-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		DAFBBD6ADB7A127710E8B9B0 /* [CP] Check Pods Manifest.lock */ = {
@@ -410,7 +410,7 @@
 		};
 		67B50E451F6BCF04002AA453 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EC3C8F65A404E26B95DD7194 /* Pods-ZKeyboard.debug.xcconfig */;
+			baseConfigurationReference = D3A464BE253455D209D8662D /* Pods-Zomoji Keyboard.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = "";
@@ -426,7 +426,7 @@
 		};
 		67B50E461F6BCF04002AA453 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D8161B6838B2C941808A43A0 /* Pods-ZKeyboard.release.xcconfig */;
+			baseConfigurationReference = 63A583E056C6A97D844556B1 /* Pods-Zomoji Keyboard.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = "";
