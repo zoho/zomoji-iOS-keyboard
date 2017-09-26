@@ -4,7 +4,7 @@
 target 'Zomoji Keyboard' do
   # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
   use_frameworks!
-  pod 'YYImage'
+  pod 'YYImage', '~> 1.0.4'
   # Pods for Zomoji Keyboard
 
 end
