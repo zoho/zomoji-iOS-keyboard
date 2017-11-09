@@ -29,7 +29,7 @@ end
 
 ### Manual
 
-If you prefer not to use CocoaPods, copy all the files within the `Keyboard` and `Utils` folders in addition to `ZomojiAssets.xcassets`.
+If you prefer not to use CocoaPods, copy all the files within the `Keyboard` and `Utils` folders in addition to `ZomojiAssets.xcassets`. Make sure to include the [YYImage](https://github.com/ibireme/YYImage) framework within your project.
 
 ## Usage
 
